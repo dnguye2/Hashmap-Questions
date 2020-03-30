@@ -1,5 +1,4 @@
 def permutations?(string1, string2)
-
   return false if string1.length != string2.length
 
   lookup_hash = {}
@@ -19,5 +18,4 @@ def permutations?(string1, string2)
   else
     return true
   end
-
 end
